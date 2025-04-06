@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f5a623;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #f5a623;
+}
+
+.game-list {
+    display: flex;
+    gap: 20px;
+}
+
+.game {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.game h3 {
+    color: #f5a623;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+}
+
+form button {
+    background-color: #f5a623;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f8b73a;
+}
